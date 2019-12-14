@@ -1,2 +1,2 @@
 # exchangeRate
-this script (source code) show the exchange rate of US Dollar in Iranian Rial
+this script (source code) shows the exchange rate of US Dollar in Iranian Rial
