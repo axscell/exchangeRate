@@ -13,7 +13,7 @@ class ExchangeRate() :
 		return self.priceOfDollar
 try:
 	#calculate the currency
-	DIR = 'the price of dollar in rial is: ' + ExchangeRate().dollarInRial()
+	DIR = '$1 = ' + ExchangeRate().dollarInRial() + " Rial"
 
 	#GUI
 	root = tk.Tk()
@@ -24,7 +24,7 @@ try:
 
 	label = tk.Label(root, text=DIR, bg="red", font=("Courier", 15))
 
-	button = tk.Button(root, text='Dollar in Rial', width=25, command=label.pack)
+	button = tk.Button(root, text='Click here to show the price', width=25, command=label.pack)
 	button.pack()
 
 	button = tk.Button(root, text='Exit', width=25, command=root.destroy)
