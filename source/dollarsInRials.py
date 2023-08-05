@@ -18,7 +18,7 @@ try:
 	#GUI
 	root = tk.Tk()
 
-	root.geometry("400x200")
+	root.geometry("720x500")
 
 	root.title('ExchangeRate')
 
@@ -31,10 +31,11 @@ try:
 	button.pack()
 
 	root.mainloop()
+
 except:
 	root = tk.Tk()
 
-	root.geometry("350x50")
+	root.geometry("720x500")
 	root.title("ERROR PAGE")
 
 	label = tk.Label(root, text="you'r not connected to internet", bg="red", font=("Courier", 15),)
